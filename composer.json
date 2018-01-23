@@ -18,15 +18,16 @@
     "require": {
         "neos/neos": "~3.3.0",
         "neos/nodetypes": "~3.3.0",
-
         "neos/neos-ui": "~1.0.0",
         "neos/neos-ui-compiled": "~1.0.0",
-
         "neos/seo": "~2.0",
         "neos/setup": "~4.0",
         "flowpack/neos-frontendlogin": "~3.0",
         "neos/redirecthandler-neosadapter": "~2.0",
-        "neos/redirecthandler-databasestorage": "~2.0"
+        "neos/redirecthandler-databasestorage": "~2.0",
+        "ar/kochsanitaetshaus": "dev-master",
+        "neos/content-repository-search": "^3.0",
+        "flowpack/simplesearch-contentrepositoryadaptor": "^2.0"
     },
     "require-dev": {
         "neos/buildessentials": "~4.1.0",
@@ -46,5 +47,11 @@
         "post-install-cmd": "Neos\\Flow\\Composer\\InstallerScripts::postUpdateAndInstall",
         "post-package-update": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall",
         "post-package-install": "Neos\\Flow\\Composer\\InstallerScripts::postPackageUpdateAndInstall"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/andreasrieger/AR.KochSanitaetshaus.git"
+        }
+    ]
 }
