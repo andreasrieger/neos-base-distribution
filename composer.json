@@ -16,11 +16,11 @@
         "bin-dir": "bin"
     },
     "require": {
-        "neos/neos": "~3.2.0",
-        "neos/nodetypes": "~3.2.0",
+        "neos/neos": "~3.3.0",
+        "neos/nodetypes": "~3.3.0",
 
-        "neos/neos-ui": "1.0.*@beta",
-        "neos/neos-ui-compiled": "1.0.*@beta",
+        "neos/neos-ui": "~1.0.0",
+        "neos/neos-ui-compiled": "~1.0.0",
 
         "neos/seo": "~2.0",
         "neos/setup": "~4.0",
